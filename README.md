@@ -1,5 +1,5 @@
 # FASTA Analyzer
-this FASTA analyzer tool to calculate sequence statistics (length and GC content) from FASTA files.
+This FASTA analyzer tool to calculate sequence statistics (length and GC content) from FASTA files.
 
 ## Features
 - Reads any `.fasta` file

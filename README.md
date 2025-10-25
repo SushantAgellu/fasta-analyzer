@@ -1,6 +1,7 @@
 # FASTA Analyzer
 This FASTA analyzer tool to calculate sequence statistics (length and GC content) from FASTA files.
 
+Bioinformatics, Python, Biopython, FASTA, Genomics, Sequence-analysis
 ## Features
 - Reads any `.fasta` file
 - Counts total sequences and total length

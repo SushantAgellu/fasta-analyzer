@@ -1,15 +1,22 @@
 # FASTA Analyzer
-This FASTA analyzer tool to calculate sequence statistics (length and GC content) from FASTA files.
 
-Bioinformatics, Python, Biopython, FASTA, Genomics, Sequence-analysis
-## Features
+This bioinformatics tool built with Python to analyze DNA sequences from FASTA files.  
+It computes key sequence statistics such as GC content, codon usage, and open reading frames (ORFs), and provides visualizations for GC content distribution.
+
+Bioinformatics, Python, Biopython, FASTA, Genomics, Sequence Analysis, Visualization
+
+** Features
 - Reads any `.fasta` file
-- Counts total sequences and total length
-- Calculates GC content for each sequence
+- Calculates per-sequence and overall GC content
+- Detects Open Reading Frames (ORFs)
+- Computes codon usage frequency
+- Generates GC content bar plot using `matplotlib`
+- Provides sequence summary (count and total length)
 
-## Usage
-1. Clone the repository  
-2. Create a virtual environment  
-3. Install dependencies:
+
+
+** Usage
+1. **Clone the repository**
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/<your-username>/fasta-analyzer.git
+   cd fasta-analyzer
